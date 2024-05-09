@@ -35,3 +35,5 @@ for testing the API you can run
 npm run test
 ```
 expected 4 passed tests
+## PostMan | Usebruno
+there's also a file apiTesting.json for PostMan purpose or useBruno just require import it into postman or useBruno
