@@ -3,7 +3,7 @@
 
 clone this repo
 ```bash
-git clone this.repo
+git clone https://github.com/AxlBasilioa/interview.git
 ```
 Restful API and Next.js project are separated for better maintenance purposes
 - Next.js project
