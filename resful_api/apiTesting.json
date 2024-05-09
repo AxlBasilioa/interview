@@ -1,0 +1,75 @@
+{
+  "info": {
+    "name": "form",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "CREATE",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "http://localhost:3001/form",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"mail\": \"ejemplo@correo.com\",\n    \"body\": \"Este es el contenido del mensaje.\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "DELETE",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": "http://localhost:3001/form/2"
+      }
+    },
+    {
+      "name": "PUT",
+      "event": [],
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": "http://localhost:3001/form/2",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"mail\": \"fake@mail.fake.co\",\n    \"body\": \"this is a placeholder\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "READ",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:3001/form",
+        "body": {
+          "mode": "raw",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bruno",
+      "event": []
+    }
+  ],
+  "variable": []
+}
